@@ -1,19 +1,6 @@
-import React from 'react';
-
-class Firebase extends React.Component {
-  constructor(props) {
-    super(props)
-      this.state = {
-
-    }
-  }
-
-  render() {
-    return(
-      <div>
-      </div>
-    )
-  }
-}
+import FirebaseContext, { withFirebase } from './context';
+import Firebase from './firebase';
 
 export default Firebase;
+
+export { FirebaseContext, withFirebase };
